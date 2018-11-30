@@ -10,7 +10,7 @@
         <Label Height="100" Content="HomeView" Background="Teal" FontSize="50" Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
         <StackPanel Orientation="Horizontal" Margin="0,50,0,0">
             <Label FontSize="30" Content="Select the Items in the combobox" />
-            <ComboBox x:Name="MyComboBox" ItemsSource="{Binding ListofItems}" Width="150" Margin="10,0,0,0"/>
+            <ComboBox x:Name="MyComboBox" ItemsSource="{Binding ListofItems}"   Width="150" Margin="10,0,0,0"/>
         </StackPanel>
         <Label Content="{Binding SelectedItem}" Width="500" Margin="0,59" Background="AntiqueWhite" Height="50" FontSize="30" />
     </StackPanel>

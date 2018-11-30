@@ -49,6 +49,8 @@ namespace RadioButtonandContentControl
             ListofItems.Add("Mango");
             ListofItems.Add("Watermelon");
             ListofItems.Add("Banana");
+            //SelectedItem = MyComboBox.SelectedItem as string;
+
             MyComboBox.SelectionChanged += PropertyAssignMethod;
         }
 

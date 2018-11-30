@@ -42,7 +42,7 @@ namespace RadioButtonandContentControl
         }
         private void CyinderOneClicked(object sender, RoutedEventArgs e)
         {
-            DataContext = _CylinderOne;
+            DataContext = CylinderOne;
         }
     }
 }

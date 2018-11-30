@@ -44,11 +44,11 @@ namespace RadioButtonandContentControl
             InitializeComponent();
             this.DataContext = this;
             ListofItems = new List<string>();
-            ListofItems.Add("Nepal");
-            ListofItems.Add("USA");
-            ListofItems.Add("Germany");
-            ListofItems.Add("Finland");
-            ListofItems.Add("Norway");
+            ListofItems.Add("Apple");
+            ListofItems.Add("Orange");
+            ListofItems.Add("Mango");
+            ListofItems.Add("Watermelon");
+            ListofItems.Add("Banana");
             MyComboBox.SelectionChanged += PropertyAssignMethod;
         }
 

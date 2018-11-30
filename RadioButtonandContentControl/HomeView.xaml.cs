@@ -7,7 +7,7 @@ namespace RadioButtonandContentControl
     /// <summary>
     /// Interaction logic for MainView.xaml
     /// </summary>
-    public partial class MainView : UserControl,INotifyPropertyChanged
+    public partial class HomeView : UserControl,INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler PropertyChanged;
 
@@ -39,7 +39,7 @@ namespace RadioButtonandContentControl
             }
         }
 
-        public MainView()
+        public HomeView()
         {
             InitializeComponent();
             this.DataContext = this;

@@ -8,7 +8,7 @@
         Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded">
     <StackPanel>
         <StackPanel Orientation="Horizontal">
-            <RadioButton x:Name="Main" Content="Main" Style="{StaticResource {x:Type ToggleButton}}" Background="Transparent" Padding="5" Margin="1,1,1,1" BorderBrush="WhiteSmoke" IsChecked="True" Click="MainClicked"></RadioButton>
+            <RadioButton x:Name="Home" Content="Home" Style="{StaticResource {x:Type ToggleButton}}" Background="Transparent" Padding="5" Margin="1,1,1,1" BorderBrush="WhiteSmoke" IsChecked="True" Click="HomeClicked"></RadioButton>
             <RadioButton x:Name="CyinderOne" Content="Cylinder One" Style="{StaticResource {x:Type ToggleButton}}" Background="Transparent" Padding="5" Margin="1,1,1,1"  BorderBrush="WhiteSmoke" Click="CyinderOneClicked"></RadioButton>
         </StackPanel>
         <ContentControl Content="{Binding}"/>

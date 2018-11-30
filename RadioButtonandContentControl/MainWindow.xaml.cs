@@ -11,7 +11,7 @@ namespace RadioButtonandContentControl
     {
         public event PropertyChangedEventHandler PropertyChanged;
 
-        private MainView _MainView;
+        private HomeView _HomeView;
         private CylinderOneView _CylinderOne;
         public CylinderOneView CylinderOne
         {
@@ -27,18 +27,18 @@ namespace RadioButtonandContentControl
         public MainWindow()
         {
             
-            _MainView = new MainView();
+            _HomeView = new HomeView();
             CylinderOne = new CylinderOneView();
             InitializeComponent();
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            MainClicked(sender, e);
+            HomeClicked(sender, e);
         }
-        private void MainClicked(object sender, RoutedEventArgs e)
+        private void HomeClicked(object sender, RoutedEventArgs e)
         {
-            DataContext = _MainView;
+            DataContext = _HomeView;
         }
         private void CyinderOneClicked(object sender, RoutedEventArgs e)
         {

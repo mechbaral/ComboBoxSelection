@@ -9,9 +9,9 @@ namespace RadioButtonandContentControl
     /// </summary>
     public partial class CylinderOneView : UserControl,INotifyPropertyChanged
     {
-        private MainView _ObjectOfMainView;
+        private HomeView _ObjectOfMainView;
 
-        public MainView ObjectOfMainView
+        public HomeView ObjectOfMainView
         {
             get { return _ObjectOfMainView; }
             set
@@ -41,7 +41,7 @@ namespace RadioButtonandContentControl
 
         public CylinderOneView()
         {
-            ObjectOfMainView = new MainView();
+            ObjectOfMainView = new HomeView();
             InitializeComponent();
             SelectedItemInCombobox = ObjectOfMainView.SelectedItem;
         }
